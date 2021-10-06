@@ -1,0 +1,32 @@
+{
+  "name": "ezewholesale-be",
+  "version": "1.0.0",
+  "description": "App to fetch buy or sell requests depending on the query string passed",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smeks-ops/Eze-Wholesale-BE.git"
+  },
+  "author": "Osemeke Echenim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smeks-ops/Eze-Wholesale-BE/issues"
+  },
+  "homepage": "https://github.com/Smeks-ops/Eze-Wholesale-BE#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consola": "^2.15.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
